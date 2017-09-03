@@ -517,6 +517,25 @@ main.content {
 }
 
 /* For main page and about page */
+
+div.frontpagerow {
+    float:left;
+    margin-bottom: 50px;
+}
+
+div.frontpageleftbar {
+    float:left;
+    text-align: left ;
+    width:500px;
+}
+
+div.frontpagerightbar {
+    float:right;
+    width:375px;
+    margin-left: 25px;
+}
+
+
 .textfield {
     position: relative;
     width:80%;
@@ -584,7 +603,7 @@ main.content {
     position: relative;
     margin: 2rem 0 0 0;
     padding: 4rem 0 0 0;
-    border-top: #EEEEEE 1px solid;
+    /*border-top: #EEEEEE 1px solid;*/
 }
 
 .textfield-footer h4 {
@@ -624,6 +643,15 @@ main.content {
 .textfield-footer .share a:hover {
     color: #50585D;
     text-decoration: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 	
 
