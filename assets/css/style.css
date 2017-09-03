@@ -43,7 +43,7 @@
 }
 
 /* Apply these base styles to all icons */
-.icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
+/*.icon-ghost, .icon-feed, .icon-twitter, .icon-google-plus, .icon-facebook {
     font-family: 'icons';
     speak: none;
     font-style: normal;
@@ -53,11 +53,11 @@
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
-}
+}*/
 
 /* Each icon is created by inserting the corret character into the 
    content of the :before pseudo element. Like a boss. */
-.icon-ghost:before {
+/*.icon-ghost:before {
     content: "\e000";
 }
 .icon-feed:before {
@@ -72,7 +72,7 @@
 }
 .icon-facebook:before {
     content: "\e004";
-}
+}*/
 
 
 /* ==========================================================================
@@ -96,7 +96,7 @@ body {
     color: #666666;
 }
 
-::-moz-selection {
+/*::-moz-selection {
     color: #222;
     background: #D6EDFF;
     text-shadow: none;
@@ -106,7 +106,7 @@ body {
     color: #222;
     background: #D6EDFF;
     text-shadow: none;
-}
+}*/
 
 h1, h2, h3,
 h4, h5, h6 {
@@ -156,20 +156,21 @@ h6 {
 }
 
 a {
-    color: #4183C4;
-/*    color: #FF0000;*/
+/*    color: #4183C4;*/
+    color: #FF0000;
     text-decoration: none;
 }
 
 a:hover {
     /*text-decoration: underline;*/
-    color: #ff0000;
+/*    color: #ff0000;*/
+	color: #aaaaaa;
 }
 
 h1 a, h2 a, h3 a,
 h4 a, h5 a, h6 a {
-    color: #4183C4;
-    /*color: #FF0000;*/
+/*    color: #4183C4;*/
+    color: #FF0000;
 }
 
 
