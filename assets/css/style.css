@@ -519,6 +519,7 @@ main.content {
 /* For main page and about page */
 
 div.frontpagerow {
+	position: relative
     float:left;
     margin-bottom: 50px;
 	z-index: 1
@@ -545,12 +546,23 @@ div.frontpagerightbar {
 	z-index: 1;
 }
 
+.aboutfield {
+    position: relative;
+    /*width:80%;*/
+    max-width: 900px;
+    margin: 4rem auto;
+    padding-bottom: 2rem;
+    word-break: break-word;
+    hyphens: auto;
+}
+
 
 .textfield {
     position: relative;
-    width:80%;
+    /*width:80%;*/
     max-width: 900px;
     margin: 4rem auto;
+	margin-bottom: 30em;
     padding-bottom: 2rem;
     word-break: break-word;
     hyphens: auto;
