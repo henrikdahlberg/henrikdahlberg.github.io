@@ -519,20 +519,30 @@ main.content {
 /* For main page and about page */
 
 div.frontpagerow {
-    float:left;
+    /*float:left;
     margin-bottom: 50px;
+	z-index: 1*/
+	position: relative;
+    width:80%;
+    max-width: 900px;
+    margin: 4rem auto;
+    padding-bottom: 2rem;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 div.frontpageleftbar {
     float:left;
     text-align: left ;
     width:500px;
+	z-index: 1;
 }
 
 div.frontpagerightbar {
     float:right;
     width:375px;
     margin-left: 25px;
+	z-index: 1;
 }
 
 
