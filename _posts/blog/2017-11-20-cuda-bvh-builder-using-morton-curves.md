@@ -5,7 +5,7 @@ tags: [CUDA, GPU Path Tracer]
 author: Henrik Dahlberg
 ---
 
-For the PDC summer course Introduction to High Performance computer, [Martin Biel](https://martinbield.aerobatic.io/) wrote a BVH builder in CUDA based on a [HPG paper](http://research.nvidia.com/sites/default/files/publications/karras2012hpg_paper.pdf) by Tero Karras. The work uses Morton codes, 3D space-filling curves, to construct the bounding volume hierarchy very quickly on the GPU.
+For the PDC summer course Introduction to High Performance Computing, [Martin Biel](https://martinbield.aerobatic.io/) wrote a BVH builder in CUDA based on a [HPG paper](http://research.nvidia.com/sites/default/files/publications/karras2012hpg_paper.pdf) by Tero Karras. The work uses Morton codes, 3D space-filling curves, to construct the bounding volume hierarchy very quickly on the GPU.
 
 The main idea is to represent the BVH as a binary search tree, where each internal node forms an axis-aligned bounding box around its children nodes. The leaf nodes are the bounding volumes around each individual triangle. To construct the tree the triangles are first sorted according to their spatial locality, and then converted into a binary tree which is finally traversed to construct the intermediate bounding volumes in the hierarchy.
 
